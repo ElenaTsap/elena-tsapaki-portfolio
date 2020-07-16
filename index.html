@@ -1,44 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Text Formatting</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600;700&display=swap" rel="stylesheet">
-    
-    
-    <style>
-        
-        body{
-            
-        }
-        
-        #text1{
-            color: blue;
-            letter-spacing: 4px;
-            word-spacing: 76px;
-            line-height: 80px;
-            
-            font-family: 'Cormorant Garamond', serif;
-            font-weight: 700; 
-            
-            
-        }
-        
-    
-    </style>
+    <title>Elena Tsapaki</title>
+    <link rel="stylesheet" type="text/css" href="final_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-   
-   <h1>Fonts and Text properties</h1>
-   
-   
-    <p id="text1">I am a blue text, spread out in the whole page. I am using the Cormorant Garamond font.
-    </p>
+
+    <nav>
+        <a href="#work">work</a>
+        <a href="#info">info</a>
+    </nav>
+
+    <header id="top">
+        <a href="mailto:elenatsapaki@gmail.com"><div id="star1">*</div></a>
+        <div id="star2">*</div>
+        <div id="star3">*</div>
+        <h1>Hello<br> <br>
+            I am Elena, a multidisciplinary designer, currently based in Berlin.<br><br>
+            My story starts with architecture but expands into fashion, graphic design, digital design... and a bit of coding.<br><br>If you want to drop me a line click on the big red star.
+        </h1>
+    </header>
+
+    <main>
+       
+        <section id="work">
+            <div id="sun"></div>
+            
+            <h2>my latest projects</h2>
+            
+            <article class="tooltip"><a href="https://www.behance.net/gallery/97711911/Graveyard-by-the-sea" target="_blank"><img src="projects/graveyard_laptop_cover.jpg"></a>
+            <span class="tooltiptext">Design &amp; Coding<br>Graveyard by the sea</span>
+            </article>
+
+            <article class="tooltip"><a href="https://www.behance.net/gallery/95415825/eCommerce-Replace-or-Refund-User-Journey" target="_blank"><img src="projects/lyght_project.png"></a>
+            <span class="tooltiptext">UI/UX<br>Replace/Return User Journey</span>
+            </article>
+
+            <article class="tooltip"><a href="https://www.behance.net/gallery/96499579/Johannes-Itten-tribute-page" target="_blank"><img src="projects/itten_tribute.png"></a>
+                <span class="tooltiptext">Design &amp; Coding<br>Johannes Itten Tribute Page</span>
+            </article>
+
+            <article class="tooltip"><a href="https://www.behance.net/gallery/84421769/Morning-Glory" target="_blank"><img src="projects/morningglory.gif"></a>
+                <span class="tooltiptext">UI/UX<br>Morning Glory</span>
+            </article>
+
+            <article class="tooltip"><a href="https://www.behance.net/gallery/95374727/Soft-Dashbord" target="_blank"><img src="projects/soft_dashboard.png"></a>
+                <span class="tooltiptext">UI/UX<br>Soft Dashboard</span>
+            </article>
+
+            <article class="tooltip"><a href="https://www.behance.net/gallery/84413917/phyto-app" target="_blank"><img src="projects/phyto-project.gif"></a>
+                <span class="tooltiptext">UI/UX<br>Phyto App</span>
+            </article>
+
+        </section>
+
+        <section id="info">
+        <h2>a little bit about me</h2>        
+        <div id="info-container">
+        <div class="infosection"><p>Work Experience</p></div>
+        <div  class="infotext">
+                <p>Project Manager &amp; Technical Consultant<br>May 2018 - May 2019<br><span>JMarquardt Technologies GmbH<br>Berlin, Germany</span></p></div>
+                
+        <div class="infosection"></div>
+        <div  class="infotext">
+            <p>Co-founder &amp; Designer<br>November 2018 - today<br><span>Nature loves courage festival<br>Crete, Greece</span></div>
+                
+        <div class="infosection"></div>
+        <div  class="infotext">
+                <p>Co-founder &amp; Designer<br>January 2013 - today<br><span>We are still bold &amp; beautiful</span></div>
+                
+        <div class="infosection"></div>
+        <div  class="infotext">
+                <p>Freelance Video Editor<br>September 2017 - October 2017<br><span>Viorama GmbH / Spil.ly application<br>Berlin, Germany</span></div>
+                
+        <div class="infosection"></div>
+        <div  class="infotext">
+                <p>Freelance Architect Engineer<br>January 2017 - August 2017<br><span>BL STUDIO<br>Chania, Greece</span></div>
+                
+        <div class="infosection">
+        </div>
+        <div  class="infotext">
+            <p>Junior Architect Engineer<br>September 2011 - November 2015<br><span>Dante Constructions<br>Chania, Greece</span><br><br></p>
+                </div>
+                
+        <div class="infosection">
+            <p>Skills</p></div>
+        <div  class="infotext">
+                <p>Communication design, Illustration, User-Centered design, Wireframing, Prototyping, HTML5, CSS3 and a bit of JavaScript<br><span>Proficient in Adobe Suite, Sketch, Figma, InVision, Archicad, Autocad 2d/3d, Treejack
+                    </span><br><br></p>
+        </div>
+        
+        <div class="infosection">
+        <p>Education</p></div>
+        <div  class="infotext">
+                <p>Democritus University of Thrace<br>September 2003 - June 2011<br><span>Masters Degree, Architectural Engineering<br>Master thesis: “Youth Hostel and Social Multiplex in the old town of Chania, Greece”</span></p>
+        </div>
+        
+        
+    </div>
+        </section>
+
+    </main>
     
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic deserunt provident, soluta in perferendis ex, rem a excepturi, doloribus illum quam sed eveniet. Voluptatem nobis fuga dolorem sint! Et deleniti quas quam voluptatum facilis aperiam tempore, dolores accusamus quos facere a harum eaque maxime amet totam blanditiis numquam similique magnam?
-    </p>
-    
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic deserunt provident, soluta in perferendis ex, rem a excepturi, doloribus illum quam sed eveniet. Voluptatem nobis fuga dolorem sint! Et deleniti quas quam voluptatum facilis aperiam tempore, dolores accusamus quos facere a harum eaque maxime amet totam blanditiis numquam similique magnam?
-    </p>
+    <footer>
+        <a href="#top">
+            <img src="footer_final.svg">
+    </a>
+
+    </footer>
+
+
+
 </body>
+
 </html>

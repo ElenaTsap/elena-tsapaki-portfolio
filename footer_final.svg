@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1274" height="371.766" viewBox="0 0 1274 371.766">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="1274" height="371.766"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="1274" height="371.766" fill="#fff"/>
+    <g id="Group_6" data-name="Group 6" transform="translate(-3 4.5)">
+      <g id="Group_5" data-name="Group 5" transform="translate(116 -4361)">
+        <path id="Path_7" data-name="Path 7" d="M8208.141,4542.148c-29.2,14.543-111.922,51.758-111.922,51.758h-488.57" transform="translate(-7492.648 6)" fill="none" stroke="#000" stroke-width="4"/>
+        <text id="o" transform="translate(674.852 4531.5)" fill="#469996" stroke="#000" stroke-width="4" font-size="68" font-family="JosefinSans-Bold, Josefin Sans" font-weight="700"><tspan x="0" y="0">o</tspan></text>
+        <text id="jump_to_top" data-name="jump to top" transform="translate(764.352 4597)" font-size="32" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="0">jump to top</tspan></text>
+      </g>
+    </g>
+    <text id="_" data-name="}" transform="translate(353.852 230.5) rotate(-90)" fill="#5b82ed" stroke="#000" stroke-width="4" font-size="150" font-family="JosefinSans-Bold, Josefin Sans" font-weight="700"><tspan x="0" y="0">}</tspan></text>
+  </g>
+</svg>
